@@ -1,0 +1,38 @@
+// variables
+$black: #1d1d1d
+$grey: #7E7E7E
+$lightgrey: #ededed
+$yellow: #FFC001
+$white: #FFF
+$blue: #BFD4D7
+
+// global styles
+html
+  font-size: 62.5%
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  color: $black
+  font-family: "MyFutura"
+  font-weight: normal
+
+
+head
+  display: none
+
+body
+  overflow: hidden
+  +respond(phone)
+    overflow: scroll
+    height: 100vh
+    width: 100vw
+
+script
+  display: none
+
+.flex-center
+  display: flex
+  justify-content: center
+  align-items: center

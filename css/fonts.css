@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "MyFutura";
+  src: local("Futura"), url("./fonts/futura-pt-medium.woff2") format("woff2"),
+    url("./fonts/futura-pt-medium.woff") format("woff");
+}
